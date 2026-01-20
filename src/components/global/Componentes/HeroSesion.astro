@@ -1,6 +1,67 @@
 ---
+/*
+  Hero Section – The House Exclusive
+  Mobile/Tablet: imagen arriba + texto abajo
+  Desktop: texto izquierda + imagen derecha
+*/
 
+import ImgHero from "@img/heroTheHouse.jpg"
 ---
-<div class="min-h-screen bg-gradient-to-br from-gray-50 via-white to-red-50">
-      The house exclusive
+
+<section class="min-h-screen bg-[#f7f8f6] text-[#344e41] font-display overflow-hidden">
+
+  <!-- HERO -->
+  <div class="flex flex-col lg:flex-row min-h-[calc(100vh-80px)]">
+    
+    <!-- IMAGE (mobile arriba / desktop derecha) -->
+    <div class="relative w-full aspect-[1/1] lg:aspect-auto lg:flex-1 lg:order-2 overflow-hidden">
+      <div
+        class="absolute inset-0 bg-cover bg-center transition-transform duration-1000 hover:scale-105"
+        style={`background-image: url('${ImgHero}');`}>
       </div>
+      <div class="absolute inset-0 bg-black/5"></div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="flex flex-col justify-center px-6 py-10 lg:px-24 lg:flex-1 lg:order-1 bg-[#f7f8f6]">
+      <div class="max-w-xl">
+        <h1 class="font-serif-elegant text-[28px] lg:text-6xl leading-[1.15] mb-4 lg:mb-8">
+          Moda exclusiva diseñada para quienes no siguen tendencias, las crean
+        </h1>
+
+        <p class="text-[#3a5a40] text-base lg:text-xl leading-relaxed mb-8 lg:mb-10 max-w-[90%]">
+          Artesanía y personalización de lujo para crear piezas únicas que trascienden el tiempo y reflejan su esencia.
+        </p>
+
+        <!-- CTA -->
+        <div class="flex flex-col lg:flex-row gap-3 lg:gap-4 mb-10">
+          <a
+            href="https://wa.me/XXXXXXXXXX"
+            class="h-14 px-6 flex items-center justify-center bg-[#588157] text-[#dad7cd] font-bold tracking-wide rounded-lg lg:rounded-sm hover:bg-[#3a5a40] transition"
+          >
+            Personaliza tu prenda por WhatsApp
+          </a>
+
+          <button
+            class="h-14 px-6 flex items-center justify-center border border-[#344e41]/30 text-[#344e41] font-bold tracking-wide rounded-lg lg:rounded-sm hover:bg-[#344e41]/5 transition"
+          >
+            Habla con un asesor exclusivo
+          </button>
+        </div>
+
+        <!-- TRUST -->
+        <div class="pt-6 border-t border-[#344e41]/10 flex flex-col gap-4 lg:flex-row lg:gap-8">
+          <div class="flex items-center gap-2 text-xs uppercase tracking-widest font-semibold opacity-80">
+            ✔ Asesoría personalizada
+          </div>
+          <div class="flex items-center gap-2 text-xs uppercase tracking-widest font-semibold opacity-80">
+            ✔ Respuesta rápida
+          </div>
+          <div class="flex items-center gap-2 text-xs uppercase tracking-widest font-semibold opacity-80">
+            ✔ Diseños exclusivos
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
