@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Noto+Sans:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#577f57",
+              "background-light": "#f7f8f6",
+              "background-dark": "#171b17",
+              "brand-dark": "#344e41",
+              "brand-light": "#dad7cd"
+            },
+            fontFamily: {
+              "display": ["Noto Serif", "serif"],
+              "sans": ["Noto Sans", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+        }
+        .font-display {
+            font-family: 'Noto Serif', serif;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark transition-colors duration-300">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+
+<!-- Headline Section -->
+<div class="px-4 py-6">
+<h1 class="text-brand-dark dark:text-white tracking-tight text-[32px] font-bold leading-tight text-center font-display">
+                Diseñada para ti, creada con propósito
+            </h1>
+</div>
+<!-- HeaderImage -->
+<div class="@container px-4">
+<div class="w-full bg-center bg-no-repeat bg-cover flex flex-col justify-end overflow-hidden bg-neutral-200 rounded-xl min-h-80 shadow-lg" data-alt="Close up of a professional tailor measuring premium olive green fabric" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCdsxK6ojIA5NijXoDHp0TMBXEoSxoUGRAYgqhjBusfAwhiOkMMr2rLq0KHbKw2BeFdW8MYaAUeLP86o5Hji8nXbQ1pVKy34nCjGXPks7ttuUlP9JDApd8baCTtnyCLgMq1dUcyFY9ud4Dn3yzBD2kt2tKJ99rxWMg5Ad8_9Eg-iSFg8tIEEujXEwimbmvSgyPDJZuA_8rEi3kPKCORT9OnV-HMiz_bF08LyEej_EsImt7ngnWcwNQChftXr-glpU-yGmHdVqAQD9FL");'>
+</div>
+</div>
+<!-- BodyText Description -->
+<div class="px-4 py-6">
+<p class="text-brand-dark dark:text-gray-300 text-base font-normal leading-relaxed text-center font-sans">
+                Vive la experiencia de crear una prenda única con el sello de The House Exclusive. Transformamos tu visión en una realidad artesanal.
+            </p>
+</div>
+<!-- SectionHeader: Nuestro Proceso -->
+<div class="px-4 pt-4">
+<h3 class="text-brand-dark dark:text-brand-light text-xl font-bold leading-tight tracking-tight font-display border-l-4 border-primary pl-3">
+                Nuestro Proceso
+            </h3>
+</div>
+<!-- Process Stepper (Vertical) -->
+<div class="px-6 py-8 space-y-8 relative">
+<!-- Connector Line -->
+<div class="absolute left-9 top-12 bottom-12 w-0.5 bg-primary/20"></div>
+<!-- Step 1 -->
+<div class="flex gap-6 relative">
+<div class="flex-none size-8 rounded-full bg-primary text-white flex items-center justify-center z-10 font-bold">1</div>
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-primary text-xl">forum</span>
+<h4 class="font-bold text-brand-dark dark:text-white font-display">Conversa con un asesor exclusivo</h4>
+</div>
+<p class="text-sm text-gray-600 dark:text-gray-400">Inicia una charla privada para entender tus necesidades y preferencias de estilo.</p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="flex gap-6 relative">
+<div class="flex-none size-8 rounded-full bg-primary text-white flex items-center justify-center z-10 font-bold">2</div>
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-primary text-xl">palette</span>
+<h4 class="font-bold text-brand-dark dark:text-white font-display">Define diseño y materiales</h4>
+</div>
+<p class="text-sm text-gray-600 dark:text-gray-400">Selecciona entre las telas más finas del mundo y personaliza cada detalle del corte.</p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="flex gap-6 relative">
+<div class="flex-none size-8 rounded-full bg-primary text-white flex items-center justify-center z-10 font-bold">3</div>
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-primary text-xl">content_cut</span>
+<h4 class="font-bold text-brand-dark dark:text-white font-display">Creamos tu prenda a medida</h4>
+</div>
+<p class="text-sm text-gray-600 dark:text-gray-400">Nuestros maestros sastres confeccionan tu pieza con precisión milimétrica.</p>
+</div>
+</div>
+</div>
+<!-- SectionHeader: Beneficios -->
+<div class="px-4 pt-8 pb-4">
+<h3 class="text-brand-dark dark:text-brand-light text-xl font-bold leading-tight font-display text-center">
+                ¿Por qué elegir The House Exclusive?
+            </h3>
+</div>
+<!-- Benefits List -->
+<div class="px-4 pb-12 space-y-4">
+<div class="flex items-center p-4 bg-white dark:bg-neutral-800 rounded-lg shadow-sm border border-neutral-100 dark:border-neutral-700">
+<span class="material-symbols-outlined text-primary mr-4">workspace_premium</span>
+<span class="text-brand-dark dark:text-white font-medium">Materiales Premium Importados</span>
+</div>
+<div class="flex items-center p-4 bg-white dark:bg-neutral-800 rounded-lg shadow-sm border border-neutral-100 dark:border-neutral-700">
+<span class="material-symbols-outlined text-primary mr-4">straighten</span>
+<span class="text-brand-dark dark:text-white font-medium">Ajuste Perfecto Garantizado</span>
+</div>
+<div class="flex items-center p-4 bg-white dark:bg-neutral-800 rounded-lg shadow-sm border border-neutral-100 dark:border-neutral-700">
+<span class="material-symbols-outlined text-primary mr-4">eco</span>
+<span class="text-brand-dark dark:text-white font-medium">Artesanía Local Sostenible</span>
+</div>
+</div>
+<!-- CTA Section -->
+<div class="px-4 pb-20 text-center">
+<button class="w-full bg-primary hover:bg-primary/90 text-brand-light py-5 rounded-xl text-lg font-bold flex items-center justify-center gap-3 shadow-xl transition-transform active:scale-95">
+<span class="material-symbols-outlined">chat</span>
+                Personaliza tu prenda por WhatsApp
+            </button>
+<!-- Trust Microcopy -->
+<div class="mt-6 flex flex-wrap justify-center gap-4 text-[10px] sm:text-xs text-brand-dark dark:text-gray-400 font-bold uppercase tracking-widest">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Atención personalizada</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Diseños exclusivos</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Asesoría directa</span>
+</div>
+</div>
+<!-- Spacer for Bottom Navigation or Padding -->
+<div class="h-10 bg-transparent"></div>
+</div>
+</body></html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#578156",
+                        "background-light": "#f7f8f6",
+                        "background-dark": "#171b17",
+                        "brand-dark": "#344e41",
+                    },
+                    fontFamily: {
+                        "display": ["Noto Serif", "serif"],
+                        "sans": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+        }
+        .serif-text {
+            font-family: 'Noto Serif', serif;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-brand-dark dark:text-stone-200 min-h-screen">
+
+<main class="max-w-7xl mx-auto pb-20">
+<!-- HeadlineText -->
+<section class="px-4 py-8">
+<h1 class="serif-text text-brand-dark dark:text-stone-100 tracking-tight text-[32px] font-bold leading-tight text-center">Explora nuestras categorías</h1>
+</section>
+<!-- Category: Hombre -->
+<section class="mb-12">
+<div class="px-4 border-l-4 border-primary mb-6">
+<h2 class="serif-text text-brand-dark dark:text-stone-100 text-[26px] font-bold leading-tight tracking-tight">Hombre</h2>
+<p class="text-brand-dark/70 dark:text-stone-400 text-base font-normal leading-relaxed mt-1">Elegancia atemporal para el caballero moderno. Prendas confeccionadas a medida con los tejidos más nobles.</p>
+</div>
+<div class="grid grid-cols-2 gap-4 px-4">
+<!-- Product Card 1 -->
+<div class="flex flex-col gap-3 group">
+<div class="relative w-full aspect-[2/3] bg-stone-200 rounded-lg overflow-hidden">
+<div class="absolute inset-0 bg-center bg-cover transition-transform duration-500 group-hover:scale-105" data-alt="Modern man in a tailored green bespoke suit" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDMUSzP_g-pjSjc5lsh23XIyPahuifRVqa9woQ9pbwOrZ4M1aCkSAWMHEab0dauJRq0uYcwHdqtx-GvuvyTdRJnazn7dqWIFQmccdejJgztJEfoLKivoCGIAzoC30oZvDlJ4jFmqgQCPQbo4k-P3AXUq9BJVb3S8Dqp8HVVWa6-nRO4zhABK2v2UY9FUPm1nV0zdn8IgpiHtDsRN93KAFr6eenH2dn_4wIl6SkDhNKNH1fgiBZfoZVrI0G0DIahHGvXX967RWfj1Pay");'>
+</div>
+<div class="absolute top-2 left-2 bg-white/90 dark:bg-black/70 px-2 py-1 rounded text-[10px] uppercase tracking-wider font-bold text-primary">Bespoke</div>
+</div>
+<div class="flex flex-col flex-grow">
+<h3 class="serif-text text-brand-dark dark:text-stone-100 text-lg font-medium">Traje Bespoke</h3>
+<p class="text-brand-dark/60 dark:text-stone-400 text-xs mb-2">Lana virgen italiana Super 150s</p>
+<div class="flex items-center gap-1 text-[11px] text-primary font-bold mb-3 uppercase tracking-tighter">
+<span class="material-symbols-outlined text-sm">check_circle</span>
+                            Disponible para personalizar
+                        </div>
+<button class="mt-auto w-full bg-primary hover:bg-primary/90 text-white py-3 rounded-lg flex items-center justify-center gap-2 text-xs font-bold transition-colors">
+<span class="material-symbols-outlined text-lg">chat</span>
+                            WhatsApp
+                        </button>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="flex flex-col gap-3 group">
+<div class="relative w-full aspect-[2/3] bg-stone-200 rounded-lg overflow-hidden">
+<div class="absolute inset-0 bg-center bg-cover transition-transform duration-500 group-hover:scale-105" data-alt="Close up of a premium linen shirt" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD6xl0iR3xcCPUccOMiQICWqzcpoEHn0jfgP6NGLByAMDRGaAb0dDdk_xgI3U_qwXObBIkpHfJMhDyDV3lTfwJUjz2GgtQKSDgFb2l6S64jlmoruJAo06XAqDtMfk5CaR7EMCn2kctUAhA4miJdph0Jp_p_FmPtfbVY1MtEm6noyiW9pf8GRM9W2EeR42BIHbR33BgN0WfvM2lXrP2W7ZLP9fuyRQjmcRPezQqvmxBJDETmrVFjJoeeVRfitFde_j2TneHufXtWuoE9");'>
+</div>
+</div>
+<div class="flex flex-col flex-grow">
+<h3 class="serif-text text-brand-dark dark:text-stone-100 text-lg font-medium">Camisa Linum</h3>
+<p class="text-brand-dark/60 dark:text-stone-400 text-xs mb-2">Lino 100% orgánico certificado</p>
+<div class="flex items-center gap-1 text-[11px] text-primary font-bold mb-3 uppercase tracking-tighter">
+<span class="material-symbols-outlined text-sm">check_circle</span>
+                            Disponible para personalizar
+                        </div>
+<button class="mt-auto w-full bg-primary hover:bg-primary/90 text-white py-3 rounded-lg flex items-center justify-center gap-2 text-xs font-bold transition-colors">
+<span class="material-symbols-outlined text-lg">chat</span>
+                            WhatsApp
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Category: Mujer -->
+<section class="mb-12">
+<div class="px-4 border-l-4 border-primary mb-6">
+<h2 class="serif-text text-brand-dark dark:text-stone-100 text-[26px] font-bold leading-tight tracking-tight">Mujer</h2>
+<p class="text-brand-dark/70 dark:text-stone-400 text-base font-normal leading-relaxed mt-1">Sofisticación y fluidez. Colecciones cápsula diseñadas para resaltar la fuerza femenina.</p>
+</div>
+<div class="grid grid-cols-2 gap-4 px-4">
+<!-- Product Card 3 -->
+<div class="flex flex-col gap-3 group">
+<div class="relative w-full aspect-[2/3] bg-stone-200 rounded-lg overflow-hidden">
+<div class="absolute inset-0 bg-center bg-cover transition-transform duration-500 group-hover:scale-105" data-alt="Woman wearing an elegant silk dress" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBv8qvLqjeG7FbB1ugAiX3pm5Xr6RHDwp0pq1Fy_MO1qEr7JmtGhE3jxwT50EUa5BfRP982Xf3XAx_8xLjCMnP1pGhjGTzsRLHds85tKRytgNNLXw_iDvuZhu90_74WfqVIXSTfp5P5VAvz8XBqhaP9agBhL7sa6vH5jws2vHWLHqz6qHY8hEh0-gxIw8w-IQ3zW8ZNHXPBDdleiXANWA-YOv84RwFu-6OITlJqU43lYo_PkdAH86XQHsAGaZY6MzIxXk9ETtlEuloq");'>
+</div>
+</div>
+<div class="flex flex-col flex-grow">
+<h3 class="serif-text text-brand-dark dark:text-stone-100 text-lg font-medium">Vestido de Seda</h3>
+<p class="text-brand-dark/60 dark:text-stone-400 text-xs mb-2">Seda natural de alta densidad</p>
+<div class="flex items-center gap-1 text-[11px] text-primary font-bold mb-3 uppercase tracking-tighter">
+<span class="material-symbols-outlined text-sm">check_circle</span>
+                            Disponible para personalizar
+                        </div>
+<button class="mt-auto w-full bg-primary hover:bg-primary/90 text-white py-3 rounded-lg flex items-center justify-center gap-2 text-xs font-bold transition-colors">
+<span class="material-symbols-outlined text-lg">chat</span>
+                            WhatsApp
+                        </button>
+</div>
+</div>
+<!-- Product Card 4 -->
+<div class="flex flex-col gap-3 group">
+<div class="relative w-full aspect-[2/3] bg-stone-200 rounded-lg overflow-hidden">
+<div class="absolute inset-0 bg-center bg-cover transition-transform duration-500 group-hover:scale-105" data-alt="Elegant woman in a structured white blazer" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAteLXDZrhpwea9ipb1QWAfWGupIdfasauKBHQnWJJpai6cKam6P87gyPS_L55psmu_hzpDt9ZpKfjoZZnM8m4U1lJg3XA-r3dkJeQsyYDCYc8FjW1dwdhiYA8yz3tiaB4v7b-eIoQPbNoTViePt3VZHjKSU_J-uDI1vxtEfIPq8l3lAIj3mnDdoWu9026D3efFIZYtygGNgx_gBGDuoL5qbAIz57uXUxc16_On8Ij8g-V9y1F_OfQq9AKRf4KFiq0qNGBl_J92cuqT");'>
+</div>
+<div class="absolute top-2 left-2 bg-white/90 dark:bg-black/70 px-2 py-1 rounded text-[10px] uppercase tracking-wider font-bold text-primary">Exclusivo</div>
+</div>
+<div class="flex flex-col flex-grow">
+<h3 class="serif-text text-brand-dark dark:text-stone-100 text-lg font-medium">Blazer Estructurado</h3>
+<p class="text-brand-dark/60 dark:text-stone-400 text-xs mb-2">Mezcla de lana y cachemira</p>
+<div class="flex items-center gap-1 text-[11px] text-primary font-bold mb-3 uppercase tracking-tighter">
+<span class="material-symbols-outlined text-sm">check_circle</span>
+                            Disponible para personalizar
+                        </div>
+<button class="mt-auto w-full bg-primary hover:bg-primary/90 text-white py-3 rounded-lg flex items-center justify-center gap-2 text-xs font-bold transition-colors">
+<span class="material-symbols-outlined text-lg">chat</span>
+                            WhatsApp
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Global CTA -->
+<section class="px-4 py-12 flex flex-col items-center text-center bg-primary/5 dark:bg-primary/10 rounded-xl mx-4 mb-8">
+<h3 class="serif-text text-brand-dark dark:text-stone-100 text-2xl font-bold mb-4">¿No encuentras lo que buscas?</h3>
+<p class="text-brand-dark/70 dark:text-stone-400 text-sm mb-6 max-w-xs">Nuestros sastres y diseñadores pueden crear cualquier prenda a partir de tu visión.</p>
+<button class="w-full max-w-sm bg-primary hover:bg-primary/90 text-white py-4 rounded-xl flex items-center justify-center gap-3 text-base font-bold shadow-lg shadow-primary/20 transition-all">
+<span class="material-symbols-outlined">chat</span>
+                Encuentra tu prenda ideal por WhatsApp
+            </button>
+<!-- Trust Microcopy Icons -->
+<div class="flex justify-center gap-8 mt-10">
+<div class="flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">verified</span>
+<span class="text-[10px] font-bold uppercase tracking-widest opacity-60">Calidad</span>
+</div>
+<div class="flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">workspace_premium</span>
+<span class="text-[10px] font-bold uppercase tracking-widest opacity-60">Exclusivo</span>
+</div>
+<div class="flex flex-col items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">public</span>
+<span class="text-[10px] font-bold uppercase tracking-widest opacity-60">Global</span>
+</div>
+</div>
+</section>
+</main>
+<!-- Navigation Spacer for Mobile Safari -->
+<div class="h-10"></div>
+</body></html>
